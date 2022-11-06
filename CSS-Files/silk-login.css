@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../Images/silk-home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 146px;
+    align-items: center;
+    transition: all;
+    background-color: rgba(3, 3, 3, 0.76);
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 230px auto;
+    grid-template-rows: 100%;
+    column-gap: 20px;
+    width: 92%;
+    height: 75%;
+    margin-bottom: 13px;
+}
+.dawn{
+    padding-top: 12px;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 4px;
+}
+
+.logo{ 
+    width: 67%; 
+    height: 70%;
+    padding: 5px 4px 3px 1px;
+    border: 1px solid rgb(216, 202, 4);
+    /* display: inline-block; */
+    margin-bottom: 50px;
+    background: #121111;
+    text-decoration: none;
+    height: 70%;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.logo:hover{
+    background-color: rgb(0, 106, 255);
+}
+
+.logo h2{
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    justify-content: space-evenly;
+}
+
+hr{
+    width: 100%;
+    background-color:rgba(200, 194, 194, 0.986);
+    margin-bottom: 7px;
+    padding: 1px;
+    border: none;
+    margin: 0;
+    
+}
+.menu-one{
+    display: flex;
+    align-items: right;
+    width: 100%;
+    height: 48%;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.lefthand{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+.lefthand li a{
+    text-decoration: none;
+    color: rgba(208, 202, 202, 0.909);
+}
+.lefthand li a:hover{
+    color: rgba(191, 12, 12, 0.933);
+}
+.lefthand .active{
+    font-weight: bold;
+    color: rgb(20, 180, 172);
+}
+.righthand{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    padding: 2px;
+    margin-bottom: 14px;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+.righthand li a{
+    margin: 0;
+    text-decoration: none;
+    font-size: small;
+    padding: 0;
+    color: white;
+}
+.righthand li a:hover{
+    color: rgba(191, 12, 12, 0.933);
+    margin: 0;
+    padding: 0;
+}
+.line{
+    margin: 0;
+    border-left: 2px solid rgb(248, 245, 245);
+    height: 24px;
+    padding: 0;
+}
+
+.menu-two{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    align-items: center;
+    margin-top: 0;
+    width: 100%;
+    height: 48%;
+    margin-bottom: 0;
+}
+.homeco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 135px;
+    height: 80%;
+    font-family: sans-serif;
+}
+.homeco li{
+    list-style-type: none;
+}
+.homeco i{
+    font-size: x-small;
+}
+.homeco .login{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.home{
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+.btn-div{
+    padding: 0;
+    margin-top: 6px;
+    width: 187px; 
+    height: 60%; 
+    margin-bottom: 0;
+}
+.btn-div button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #eee;
+    background-color: rgb(45, 73, 157);
+    border: 1px solid rgb(45, 73, 157);
+    border-radius: 5px;
+    padding: 7px 2px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.btn-div button:hover{
+    background-color: rgb(73, 107, 212);
+    border: 1px solid rgb(73, 107, 212);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    position: relative;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 72%;
+    height: 55%;
+    align-items: right;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    background-color: rgba(6, 6, 6, 0.70);
+    color: rgba(238, 238, 238, 0.955);
+    margin-top: 0;
+}
+
+#intro h2{
+    margin: 0.5% 0% 15px 4rem;
+    font-weight: 500;
+}
+
+.intro-stuff{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 42px;
+}
+.register-btn{
+    background-color: transparent;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    padding: 8px 4px;
+    margin: 1% 0% 0% 3.6rem;
+    width: 160px; 
+    font-size: small;
+    font-weight: 500;
+    color: #eee;
+    cursor: pointer;
+}
+/* SECTION ONE */
+.login-form{
+    position: absolute;
+    padding: 16px 30px 16px 30px;
+    color: rgb(119, 137, 154);
+    margin-right: 8px;
+    width: 400px;
+    height: 430px;
+    background-color: rgb(231, 238, 245);
+    right: 16.5rem;
+    font-family: sans-serif;
+}
+.form-top{
+    font-size: 22px;
+    font-weight: 500;
+}
+.form-contain{
+    display: flex;
+    margin: 1.6rem auto;
+    width: 100%;
+}
+.form-contain select{
+    border: none;
+    color: white;
+    padding: 4px 12px 4px 12px;
+    font-family: sans-serif;
+    outline: none;
+    background-color: rgb(126, 138, 149);
+    font-size: 14px;
+}
+.form-contain select:hover{
+    background-color: rgb(50, 54, 58);
+}
+.contact{
+    display: flex;
+    align-items: center;
+    width: 77%;
+    height: 30px;
+    background-color: rgb(215, 220, 236);
+    padding-top: 0;
+}
+.contact i{
+    font-family: sans-serif;
+    font-weight: 400;
+    padding-left: 14px;
+    padding-right: 0;
+}
+
+.contact input{
+    background-color: transparent;
+    padding-left: 18px;
+    font-size: 15px;
+    width: 85.8%;
+    border: none;
+    font-weight: 400;
+    font-family: sans-serif;
+    outline: none;
+    height: 80%;
+    margin-left: 1.7%;
+    padding-right: 0;
+}
+.password{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: sans-serif;
+    height: 38px;
+    background-color: rgb(215, 220, 236);
+}
+.password i{
+    margin-left: 30px;
+    margin-right: 0;
+    font-weight: 400;
+}
+
+.password input{
+    padding-left: 15px;
+    font-weight: 400;
+    background-color: transparent;
+    height: 82%;
+    font-family: sans-serif;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+/* EMAIL */
+.email{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 32px;
+    background-color: rgb(215, 220, 236);
+}
+.email i{
+    margin-left: 28px;
+}
+.email input{
+    padding-left: 14px;
+    font-size: 15px;
+    background-color: transparent;
+    height: 80%;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+/* EMAIL */
+.forget-password,.submit-btn{
+    justify-content: flex-end;
+}
+.forget-password h5{
+    padding: 2px;
+    margin: 0%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.forget-password a {
+    text-decoration: none;
+    color: rgb(40, 228, 180);
+    font-weight: 600;
+    margin: 0%;
+}
+.submit-btn button{
+    color: rgb(229, 225, 225);
+    padding: 7px 5px;
+    background-color: rgb(126, 136, 146);
+    border: 1px solid rgb(126, 136, 146);
+    border-radius: 0.375rem;
+    width: 182px;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+}
+.submit-btn button:hover{
+    background-color: rgb(74, 80, 98);
+    border: 1px solid rgb(74, 80, 98);
+}
+
+.mobile-nav,aside{
+    display: none;
+}
+
+@media (min-width:320px) and (max-width: 760px) {
+
+    #main{
+        height: 91.9vh;
+        width: 100vw;
+    }
+    body{
+        background-color: black;
+        overflow: hidden
+    }
+   
+    .desktop-nav{
+        display: none;
+    }
+
+    .homeco{
+        height: 0%;
+    }
+    .btn-div{
+        height: auto;
+    }
+
+    .promo-property{
+        display: flex;
+        font-size: large;
+    }
+
+    #intro {
+        width: 77%;
+        justify-content: left;
+        height: 74%;
+        padding: 30px 5px;
+    }
+    #intro h2 ,.register-btn{
+        margin-left: 15px;
+        font-weight: 500;
+    }
+
+    .intro-stuff {
+        width: 100%;
+    }
+
+    .login-form{
+        position: absolute;
+        width: 84%;
+        height: 390px;
+        right: 7%;
+        top: 14.3rem;
+        margin-top: 15px;
+    }
+}
+@media (min-width:761px) and (max-width: 844px) {
+    main{
+        height: 100vh;
+    }
+    .login-form{
+        position: absolute;
+        width: 41%;
+        height: 477px;
+        right: 3.7rem;
+        top: 7.79rem;
+    }
+    #intro {
+        width: 90vh;
+        height: auto;
+    }
+}
