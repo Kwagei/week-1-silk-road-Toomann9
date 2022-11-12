@@ -21,6 +21,10 @@ header{
     transition: all;
 }
 
+header:hover{
+    background-color: rgb(21, 30, 30);
+}
+
 nav{
     width: 90%;
     height: 73%;
@@ -73,6 +77,7 @@ nav ul li a:hover{
 .home:hover{
     background: #1e9363;
 }
+
 .ul-items .home-tag:hover{
     color: rgb(227, 14, 14);
 }

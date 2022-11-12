@@ -402,7 +402,7 @@ main{
         overflow: hidden
     }
    
-    .desktop-nav{
+    .dawn{
         display: none;
     }
 
@@ -438,20 +438,20 @@ main{
         width: 84%;
         height: 390px;
         right: 7%;
-        top: 14.3rem;
+        top: 228px;
         margin-top: 15px;
     }
 }
-@media (min-width:761px) and (max-width: 844px) {
+@media (min-width:761px) and (max-width: 920px) {
     main{
         height: 100vh;
     }
     .login-form{
         position: absolute;
+        right: 58px;
+        top: 124px;
         width: 41%;
         height: 477px;
-        right: 3.7rem;
-        top: 7.79rem;
     }
     #intro {
         width: 90vh;

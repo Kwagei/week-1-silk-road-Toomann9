@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS-Files/props.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.min.css">
+    <title>Silk Properties Page</title>
+</head>
+<body>
+        <header>
+            <nav class="desktop-nav"><div class="nav-logo"><div class="logo"><h2>SILKROAD</h2></div></div>
+                <div class="nav-menu"><div class="menu-one">
+                    <ul class="lefthand"><li><a href="../HTML-files/silkhome.html">Home</a></li>
+                        <li><a class="active" href="../HTML-files/props.html">Our Properties</a></li>
+                    </ul>
+                    <ul class="righthand"><li id="login"><a href="../HTML-files/index-login.html">Login</a></li>
+                        <li class="ray"></li><li id="register"><a href="../HTML-files/index-reg.html">Register</a></li>
+                    </ul></div> 
+                    <hr>
+                <div class="menu-two"><ul class="homeco">
+                    <li class="home">HOME</li><li><i class="fa-solid fa-angle-right"></i></li><li class="houses">HOUSES</li></ul>
+                <div class="btn-div"><button>Post a Property</button></div></div></div>
+            </nav>
+
+            <nav class="mobile-nav">
+                <div class="icon"><i class="fa fa-bars"></i></div><div class="logo"><h2>SILKROAD</h2></div>
+            </nav>
+        </header>
+        <!-- MAIN  -->
+
+            <main>
+                <section class="item left-aside">
+                    <form action="#" class="search-form"><div class="form-top"><h5>Search</h5></div>
+                       <div class="form-contain search"><input type="search" placeholder="Search">
+                            <i class="fa fa-search"></i>
+                            </div>
+                       <div class="form-contain category"><label for="category">Category</label><div class="search-group">
+                            <select name="category" id="category"><option value="most-recent">Most Recent</option>
+                                <option value="most-recent">All</option>
+                                <option value="most-recent">For Sale</option>
+                                <option value="most-recent">Rent</option></select>
+                            <i class="fa fa-angle-down"></i></div>
+                        </div>
+
+                        <div class="form-contain location"><label for="location">Location</label><div class="search-group">
+                            <select name="location" id="location"><option value="most-recent">Most Recent</option>
+                                <option value="most-recent">Sinkor</option>
+                                <option value="most-recent">Paynesville</option>
+                                <option value="most-recent">ELWA Highway</option>
+                                <option value="most-recent">Duport Road</option>
+                                <option value="most-recent">Kakata</option>
+                                <option value="most-recent">Gbarnga</option>
+                                <option value="most-recent">Suakoko</option>
+                                <option value="most-recent">Ganta</option>
+                                <option value="most-recent">Salayea</option>
+                                <option value="most-recent">Gbartala</option>
+                                <option value="most-recent">Bensonville</option></select>
+                            <i class="fa fa-angle-down"></i></div>
+                        </div>
+
+                        <div class="form-contain bedrooms"><label for="bedrooms">Bedrooms</label><div class="search-group">
+                            <select name="bedrooms" id="bedrooms"><option value="most-recent">Most Recent</option>
+                                <option value="most-recent">3 Bedrooms</option>
+                                <option value="most-recent">4 Bedrooms</option>
+                                <option value="most-recent">5 Bedrooms</option>
+                                <option value="most-recent">6 Bedrooms</option>
+                                <option value="most-recent">7 Bedrooms</option>
+                                <option value="most-recent">8 Bedrooms</option>
+                                <option value="most-recent">9 Bedrooms</option>
+                                <option value="most-recent">10 Bedrooms</option>
+                                <option value="most-recent">12 Bedrooms</option></select>
+                            <i class="fa fa-angle-down"></i></div>
+                        </div>
+
+                        <div class="form-contain bathrooms"><label for="bathrooms">Bathrooms</label><div class="search-group">
+                            <select name="bathrooms" id="bathrooms"><option value="most-recent">Most Recent</option>
+                                <option value="most-recent">3 Bathrooms</option>
+                                <option value="most-recent">4 Bathrooms</option>
+                                <option value="most-recent">5 Bathrooms</option>
+                                <option value="most-recent">6 Bathrooms</option>
+                                <option value="most-recent">7 Bathrooms</option>
+                                <option value="most-recent">8 Bathrroms</option>
+                                <option value="most-recent">9 Bathrooms</option></select>
+                            <i class="fa fa-angle-down"></i></div>
+                        </div>
+
+                        <div class="form-contain prices"><div class="total-price">
+                            <span class="title">Price: $500.00-$900,000.00</span><input type="range" class="price-range"></div></div>
+
+                        <div class="form-contain done-btn"><button>Done</button></div>
+                    </form>
+                </section>
+<!-- NEXT -->
+                <section class="item second">
+                    <ul class="section-filter-category"><li class="active">All</li><li>Rent</li><li>Sale</li></ul>
+                        <div class="section-filter-icons">
+                            <ul><li>View</li><a href="../HTML-files/index-pro.html"><i class="far fa-list-alt"></i></a>
+                            <i class="fa fa-grip-horizontal"></i></ul>
+
+                           <form action="">
+                             <label for="category">Sort by</label><div class="search-group">
+                             <select name="" id=""><option value="most-recent">Most Recent</option></select>
+                                <i class="fa fa-angle-down" style="font-size: x-small;"></i></div>
+                           </form>
+                       </div>
+                    </section>
+                    <section class="item right-aside">
+                       <span>Advertisement</span>
+                    </section>
+                    <section class="item four" id="houses">
+                        <div class="apartment apartment-one">
+                            <div class="house-image">
+                                <img src="../Images/exterior11.jpeg" alt="">
+                                <span class="h-price"><sup>$</sup>3,500.00/<sub>month</sub></span>
+                            </div>
+                            <div class="house-info">
+                                <h5>9 bedroom Mansion</h5>
+                                <p><i class="fa fa-map-marker-alt"></i> Marshall ELWA Highway, Monrovia Liberia</p>
+                                <h6>Ben Ngafua</h6>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="house-extra">
+                                <span style="border-left: none; border-right: none;"><i class="fa fa-campground"></i> 4</span>
+                                <span style="border-right: none;"><i class="fa fa-book"></i> 10</span>
+                                <span style="border-right: none;"><i class="fa fa-cog"></i> 23</span>
+                                <span  style="border-right: none;"><i class="fa fa-tv"></i> 7</span>
+                            </div>
+                        </div>
+
+                        <div class="apartment apartment-two">
+                            <div class="house-image">
+                                <img src="../Images/exterior3.jpeg" alt="">
+                                <span class="h-price"><sup>$</sup>900.00/<sub>month</sub></span>
+                            </div>
+                            <div class="house-info">
+                                <h5>5 bedroom Townhouse</h5>
+                                <p><i class="fa fa-map-marker-alt"></i> Marshall ELWA Highway, Monrovia Liberia</p>
+                                <h6>Ben Ngafua</h6>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="house-extra">
+                                <span style="border-left: none; border-right: none;"><i class="fa fa-campground"></i> 7</span>
+                                <span style="border-right: none;"><i class="fa fa-book"></i> 4</span>
+                                <span style="border-right: none;"><i class="fa fa-cog"></i> 3</span>
+                                <span  style="border-right: none;"><i class="fa fa-tv"></i> 5</span>
+                            </div>
+                        </div>
+
+                        <div class="apartment apartment-three">
+                            <div class="house-image">
+                                <img src="../Images/house-exterior-anoda.jpg" alt="">
+                                <span class="h-price"><sup>$</sup>2,000.00/<sub>month</sub></span>
+                            </div>
+                            <div class="house-info">
+                                <h5>5 bedroom Townhouse</h5>
+                                <p><i class="fa fa-map-marker-alt"></i> Marshall ELWA Highway, Monrovia Liberia</p>
+                                <h6>James Kamuteh</h6>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="house-extra">
+                                <span style="border-left: none; border-right: none;"><i class="fa fa-campground"></i> 3</span>
+                                <span style="border-right: none;"><i class="fa fa-book"></i> 2</span>
+                                <span style="border-right: none;"><i class="fa fa-cog"></i> 4</span>
+                                <span  style="border-right: none;"><i class="fa fa-tv"></i> 1</span>
+                            </div>
+                        </div>
+
+                        <div class="apartment apartment-four">
+                            <div class="house-image">
+                                <img src="../Images/sittingroom7.jpeg" alt="">
+                                <span class="h-price"><sup>$</sup>2,000.00/<sub>month</sub></span>
+                            </div>
+                            <div class="house-info">
+                                <h5>7 bedroom Townhouse</h5>
+                                <p><i class="fa fa-map-marker-alt"></i> 24 Street Sinkor, Monrovia Liberia</p>
+                                <h6>Nushan Karmo</h6>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="house-extra">
+                                <span style="border-left: none; border-right: none;"><i class="fa fa-campground"></i> 2</span>
+                                <span style="border-right: none;"><i class="fa fa-book"></i> 7</span>
+                                <span style="border-right: none;"><i class="fa fa-cog"></i> 2</span>
+                                <span  style="border-right: none;"><i class="fa fa-tv"></i> 5</span>
+                            </div>
+                        </div>
+
+                        <div class="apartment apartment-five">
+                            <div class="house-image">
+                                <img src="../Images/wooden-house.jpeg" alt="">
+                                <span class="h-price"><sup>$</sup>2,700.00/<sub>month</sub></span>
+                            </div>
+                            <div class="house-info">
+                                <h5>12 bedroom Mansion</h5>
+                                <p><i class="fa fa-map-marker-alt"></i> Naii Suakoko, Bong Liberia</p>
+                                <h6>Kuweh Toomann</h6>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="house-extra">
+                                <span style="border-left: none; border-right: none;"><i class="fa fa-campground"></i> 3</span>
+                                <span style="border-right: none;"><i class="fa fa-book"></i> 5</span>
+                                <span style="border-right: none;"><i class="fa fa-cog"></i> 3</span>
+                                <span  style="border-right: none;"><i class="fa fa-tv"></i> 5</span>
+                            </div>
+                        </div>
+
+                        <div class="apartment apartment-six">
+                            <div class="house-image">
+                                <img src="../Images/exterior7.jpeg" alt="">
+                                <span class="h-price"><sup>$</sup>2,500.00/<sub>month</sub></span>
+                            </div>
+                            <div class="house-info">
+                                <h5>10 bedroom Townhouse</h5>
+                                <p><i class="fa fa-map-marker-alt"></i> Careyburg Bensonville, Monrovia Liberia</p>
+                                <h6>Nathan Siafa</h6>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="house-extra">
+                                <span style="border-left: none; border-right: none;"><i class="fa fa-campground"></i> 2</span>
+                                <span style="border-right: none;"><i class="fa fa-book"></i> 7</span>
+                                <span style="border-right: none;"><i class="fa fa-cog"></i> 3</span>
+                                <span  style="border-right: none;"><i class="fa fa-tv"></i> 2</span>
+                            </div>
+                        </div>
+
+                        <div class="apartment apartment-seven">
+                            <div class="house-image">
+                                <img src="../Images/exterior9.jpeg" alt="">
+                                <span class="h-price"><sup>$</sup>1,500.00/<sub>month</sub></span>
+                            </div>
+                            <div class="house-info">
+                                <h5>6 bedroom Townhouse</h5>
+                                <p><i class="fa fa-map-marker-alt"></i> Salayea, Lofa Liberia</p>
+                                <h6>Mary Kollie</h6>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="house-extra">
+                                <span style="border-left: none; border-right: none;"><i class="fa fa-campground"></i> 2</span>
+                                <span style="border-right: none;"><i class="fa fa-book"></i> 1</span>
+                                <span style="border-right: none;"><i class="fa fa-cog"></i> 3</span>
+                                <span  style="border-right: none;"><i class="fa fa-tv"></i> 2</span>
+                            </div>
+                        </div>
+
+                        <div class="apartment apartment-eight">
+                            <div class="house-image">
+                                <img src="../Images/exterior2.jpeg" alt="">
+                                <span class="h-price"><sup>$</sup>2,500.00/<sub>month</sub></span>
+                            </div>
+                            <div class="house-info">
+                                <h5>7 bedroom Townhouse</h5>
+                                <p><i class="fa fa-map-marker-alt"></i> Sugar-Hill Gbarnga, Bong Liberia</p>
+                                <h6>David Farnia</h6>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="house-extra">
+                                <span style="border-left: none; border-right: none;"><i class="fa fa-campground"></i> 2</span>
+                                <span style="border-right: none;"><i class="fa fa-book"></i> 1</span>
+                                <span style="border-right: none;"><i class="fa fa-cog"></i> 3</span>
+                                <span  style="border-right: none;"><i class="fa fa-tv"></i> 2</span>
+                            </div>
+                        </div>
+
+                        <div class="apartment apartment-nine">
+                            <div class="house-image">
+                                <img src="../Images/exterior8.jpeg" alt="">
+                                <span class="h-price"><sup>$</sup>10,000.00/<sub>month</sub></span>
+                            </div>
+                            <div class="house-info">
+                                <h5>5 bedroom Townhouse</h5>
+                                <p><i class="fa fa-map-marker-alt"></i> Cowfield Duport Road, Monrovia Liberia</p>
+                                <h6>Ezekiel Deemi</h6>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="house-extra">
+                                <span style="border-left: none; border-right: none;"><i class="fa fa-campground"></i> 2</span>
+                                <span style="border-right: none;"><i class="fa fa-book"></i> 1</span>
+                                <span style="border-right: none;"><i class="fa fa-cog"></i> 3</span>
+                                <span  style="border-right: none;"><i class="fa fa-tv"></i> 2</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="item five">
+                        <div class="form-group load-more-btn">
+                            <button>Load more</button>                               
+                        </div>                    
+                    </section>
+            </main>
+
+            <footer>
+                <section class="footer-top">
+                    <div class="contact-us">
+                        <h5 class="contact-info">CONTACT US</h5>
+                        <p class="contact-info">6116 Second W Gore Crescent, <br> Monrovia, Liberia, West Africa</p>
+                        <p class="contact-info">+231 77 833 03 39 <br> silkroad@kwagei.com</p>
+                        <span class="contact-info">
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook-f"></i>
+                        </span>
+                    </div>
+                    <div>
+                        <h5 class="contact-info">QUICK LINKS</h5>
+                        <span class="quick-links">
+                            <ul class="left-ul">
+                            <li><a href="../HTML-files/index-reg.html">Register</a></li>
+                            <li><a href="../HTML-files/index-login.html">Login</a></li>
+                            <li><a href="#">Post Property</a></li>
+                            <li><a href="#">Our Recent Postings</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contacts Us</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div class="recent-post">
+                        <h5 class="contact-info">OUR RECENT POSTINGS</h5>
+                        <p class="contact-info">Bedroom Apartment at Siakor Heights<br>  <small><i class="fa fa-map-marker-alt"></i> 45 Circle Dr. Monrovia, Liberia</small></p>
+                        <p class="contact-info">Bedroom Apartment at Siakor Heights<br>  <small><i class="fa fa-map-marker-alt"></i> 45 Circle Dr. Monrovia, Liberia</small></p>
+                        <p class="contact-info">Bedroom Apartment at Siakor Heights<br>  <small><i class="fa fa-map-marker-alt"></i> 45 Circle Dr. Monrovia, Liberia</small></p>
+
+                    </div>
+                </section>
+                <section class="footer-bottom">
+                    <div class="footer-bottom-left">
+                        <h6>Copyright <i class="fa fa-copyright"></i> 2017 - Kwagei Group - All rights reserved</h6>
+                    </div>
+                    <div class="footer-bottom-right">
+                        <h4>SILKROAD TOOMANN</h4>
+                    </div>
+                </section>
+            </footer>
+</body>
+</html>

@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url('../Images/silk-home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+header{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+    background-color: rgba(8, 8, 8, 0.76);
+}
+
+header:hover{
+    background-color: rgb(21, 30, 30);
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 228px auto;
+    grid-template-rows: 100%;
+    column-gap: 22px;
+    width: 92%;
+    height: 73%;
+    margin-bottom: 18px;
+    font-family: sans-serif;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3px;
+}
+
+.logo{ 
+    width: 67%; 
+    height: 70%;
+    padding: 5px 4px 3px 1px;
+    border: 1px solid rgb(216, 202, 4);
+    margin-bottom: 50px;
+    background: #3e3c3c;
+    text-decoration: none;
+    height: 70%;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+.logo:hover{
+    background-color: rgb(85, 127, 185);
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.logo h2{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 23px;
+    color: white;
+    justify-content: space-evenly;
+}
+
+hr{
+    background-color:rgb(212, 199, 199);
+    padding: 1.5px;
+    width: 100%;
+    border: none;
+    margin: 0;
+}
+
+.menu-one{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: right;
+    height: 48%;
+}
+
+.lefthand{
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+    padding: 0px;
+    margin-bottom: 14px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.lefthand li a{
+    text-decoration: none;
+    color: rgb(243, 234, 234);
+}
+.lefthand li a:hover{
+    color: rgb(218, 17, 17);
+}
+
+.lefthand .active{
+    font-weight: bold;
+    color: rgb(35, 162, 156);
+}
+
+.righthand{
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    padding: 0px;
+    margin-bottom: 14px;
+    margin-right: 10px;
+}
+
+.righthand li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(251, 243, 243);
+    font-size: small;
+    font-family: sans-serif;
+}
+.righthand li a:hover{
+    color: rgb(218, 17, 17);
+}
+
+.ray{
+    border-left: 2px solid white;
+    height: 20px;
+}
+
+.menu-two{
+    margin-top: auto;
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+main{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.btn-div{
+    margin-top: 5px;
+    width: 180px; 
+    height: 60%; 
+}
+
+.btn-div button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(244, 234, 234);
+    background-color: rgb(68, 102, 202);
+    border: 1px solid rgb(68, 102, 202);
+    border-radius: 5px;
+    padding: 7px 5px;
+}
+
+.btn-div button:hover{
+    border-radius: 8px;
+    background-color: rgb(34, 55, 120);
+    border: 1px solid rgb(34, 55, 120);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 154px;
+    color: rgb(255, 255, 255);
+}
+
+.lastest-post{
+    display: flex;
+    width: auto;
+    justify-content: right;
+    height: 53px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lastest-post h4{
+    font-family: sans-serif;
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.lastest-post i{
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    background-color: rgba(8, 8, 8, 0.76);
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+.intro{
+    display: flex;
+    width: 85%;
+    height: 38px;
+    margin: 14px auto;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.filter-property ul{
+    width: 170px;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-property ul li a{
+    font-weight: 400;
+    font-size: 17.5px;
+}
+
+.filter-property a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.filter-property{
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.filter-title{
+    width: 80px; 
+    font-size: 13px; 
+    font-weight: 600; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.filter-property .active{
+    font-weight: 400;
+    color: rgb(46, 161, 155);
+}
+
+.filter-property ul li a:hover{
+    color: rgb(46, 161, 155);
+}
+
+.search-property input{
+    width: 100%;
+    font-weight: 400;
+    padding-left: 16px;
+    background-color: rgba(8, 8, 8, 0.76);
+    color: white;
+    border: none;
+    outline: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+} 
+
+.search-property ::placeholder{
+    color: white;
+}
+
+.filters{
+    justify-content: space-between;
+}
+
+.filters select{
+    width: 335px;
+    border: none;
+    outline: none;
+    padding: 8px 3px 8px 8px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgb(105, 136, 163);
+}
+
+.prices {
+    justify-content: space-between;
+}
+
+.find-it-btn{
+    width: 200px;
+    display: flex;
+    justify-content: right;
+    height: 34px;
+}
+
+.find-it-btn button{
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #eee;
+    background-color: rgb(68, 102, 202);
+    border: 1px solid rgb(68, 102, 202);
+}
+
+.find-it-btn button:hover{
+    background-color: rgb(34, 55, 120);
+    border: 1px solid rgb(34, 55, 120);
+}
+
+.total-price input{
+    height: 5px;
+}
+
+.total-price{
+    height: 38px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.total-price h5{
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+    word-spacing: 10px;
+}
